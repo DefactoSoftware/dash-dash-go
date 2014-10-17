@@ -1,10 +1,13 @@
 @import 'vendor/bootstrap-sass-official/assets/stylesheets/bootstrap';
+@import 'partials/variables';
 @import 'partials/menu';
+@import 'partials/tabs';
 
 html, body {
 }
 
 *[role="main"] {
-  background: #efefef;
+  background: $main-background-color;
   min-height: 100vh;
+  padding: 0;
 }
