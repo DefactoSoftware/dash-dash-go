@@ -1,4 +1,25 @@
 @import 'vendor/bootstrap-sass-official/assets/stylesheets/bootstrap';
+@import 'partials/variables';
+@import 'partials/menu';
+@import 'partials/tabs';
+@import 'partials/app';
+
+
 html, body {
-  margin: 20px;
+  font-size: 14px;
+}
+
+*[role="main"] {
+  background: $main-background-color;
+  min-height: 100vh;
+  padding: 0;
+}
+
+*[role="content"] {
+  padding: 3em 2em 3em 2em;
+}
+
+h1 {
+  font-size: 1.4em;
+  margin: 1em;
 }

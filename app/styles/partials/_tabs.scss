@@ -1,0 +1,15 @@
+.nav {
+  background: #ececec;
+  padding: 1.7em 1em 0 1em;
+}
+
+ .nav-tabs > li.active > a,
+ .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+  background-color: $main-background-color;
+  border-bottom-color: $main-background-color!important;
+}
+
+a {
+  background: #ececec;
+  font-weight: 700;
+}

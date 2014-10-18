@@ -1,3 +1,23 @@
-<h2 id='title'>Welcome to Ember.js</h2>
-
-{{outlet}}
+<div class="fluid-container">
+  <div class="clearfix">
+    <div class="col-md-2 menu">
+      <h1>DASH-DASH-GO!</h1>
+      <hr>
+      </div>
+    <div class="col-md-10" role="main">
+      <ul class="nav nav-tabs nav-justified" role="tablist">
+        <li class="active"><a href="#">APPS</a></li>
+        <li><a href="#">SETTINGS</a></li>
+      </ul>
+      <div role="content">
+        <h1>Your Apps</h1>
+        <div class="apps">
+          <div class="app">
+            <h2>$APP_NAME</h2>
+          </div>
+        </div>
+        {{outlet}}
+      </div>
+    </div>
+  </div>
+</div>
